@@ -1,0 +1,1 @@
+web: java -jar desafio-avanade-dio/build/libs/desafio-avanade-dio-0.0.1-SNAPSHOT.jar
