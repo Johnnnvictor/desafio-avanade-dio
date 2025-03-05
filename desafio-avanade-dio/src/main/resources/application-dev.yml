@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:decolatech2025
+    username: decolatech2025
+    password:
+  jpa:
+    show-sql: true
+    open-in-view: false
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        format_sql: true
+spring.h2.console:
+  enabled: true
+  path: /h2-console
+  settings:
+    trace: false
+    web-allow-others: false
+
